@@ -4,7 +4,49 @@
     padding: 0;
 }
 
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     display: flex;
-    justify-content: 
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #a2ff8b;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #0d0e14;
+    color: white;
+    justify-content: space-between;
+    padding: 0 50px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#logo-marca {
+    width: 20%;
+    justify-content: space-between;
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+#logo-marca img {
+    height: 70%;
+    margin: auto 0;
+}
+
+nav {
+    width: 40%;
+    justify-content: space-between;
 }
