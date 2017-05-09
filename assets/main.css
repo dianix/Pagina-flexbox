@@ -20,6 +20,7 @@ a {
 
 a:hover {
     color: #a2ff8b;
+    cursor: pointer;
 }
 
 header {
@@ -86,4 +87,26 @@ aside img {
 aside h4 {
     margin: 0 0 50px;
     color: #00809f;
+}
+
+footer {
+    height: 80px;
+    background-color: #403f3f;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.menu-footer a {
+    line-height: 80px;
+    margin: 0 10px;
+}
+
+.redes-sociales {
+    margin: auto 0;
+}
+
+.redes-sociales a img {
+    width: 30px;
+    margin-right: 20px;
 }
